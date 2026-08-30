@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <style>
+   #type-1{
+    background-color: #FDEAE6;
+    color:red;
+   }
+    #type-1 i{
+      color:red;
+    }
+   
+   #type-2,
+   #type-3{
+   background-color: #E2F5E5;
+   color:#57A364;
+   }
+    #type-2 i,
+    #type-3 i{
+     color: #57A364;
+    }
+  
+    #type-4{
+    background-color: #E9EEF4;
+    color:#5B6B7C;
+   }
+    #type-4 i{
+      color:#5B6B7C;
+    }
+    #nav-icon-1{
+      color:red;
+      background: radial-gradient(
+        circle,
+        rgba(184, 147, 147, 0.35),
+        transparent 70%
+    );
+    }
+    #nav-icon-2 ,
+     #nav-icon-3{
+      color:rgb(15, 229, 3);
+      background: radial-gradient(
+        circle,
+        rgba(170, 250, 195, 0.35),
+        transparent 70%
+        
+    );
+    }
+    #nav-icon-4{
+       color:#5B6B7C;
+      background: radial-gradient(
+        circle,
+        #E9EEF4,
+        transparent 70%
+        
+    );
+    }
+      </style>
+  </head>
+  <body>
+    <div class="page">
+      <nav>
+        <div class="Menu">
+          <i class="ri-menu-line"></i>
+        </div>
+        <div class="Logo">
+          <img
+            src="https://1000logos.net/wp-content/uploads/2017/05/Pokemon-Logo.png"
+            alt="Error"
+          />
+        </div>
+        <div class="Theme">
+          <i class="ri-moon-line"></i>
+        </div>
+      </nav>
+      <section>
+        <div class="searchBar">
+          <div class="input">
+            <input type="text" placeholder="Search for pokimon" />
+          </div>
+
+          <div class="filterBar">
+            <select>
+              <option value="filter by Type(1)">filter by Type(1)</option>
+              <option value="filter by Type(2)">filter by Type(2)</option>
+              <option value="filter by Type(3)">filter by Type(3)</option>
+            </select>
+
+            <div class="filter-icon">
+              <i class="ri-filter-line"></i>
+            </div>
+          </div>
+        </div>
+
+     <Hero>
+    <div class="pokemon-grid">
+ <!-- 1st Pokimon-Card -->
+    <div class="card">
+      <div class="Cardnav">
+        <div class="color-code">
+            <p>#0229</p>
+            <div class="Icon-type" id='nav-icon-1'><i class="ri-fire-fill"></i></i></div>
+        </div>
+        <div class="like"><i class="ri-heart-line"></i></div>
+      </div>
+
+    <div class="pokemon-image">
+    <img src="Pokimon-1.png" alt="Pokemon">
+
+</div>
+      <div class="Pokimon-Name">Houndoom</div>
+
+        <div class="card-footer">
+            <div class="Food" id="type-1"><i class="ri-fire-fill"></i>Dark / Fire</div>
+            <div class="Next-Button">
+                <i class="ri-arrow-right-line"></i>
+            </div>
+        </div>
+
+      </div>
+ <!-- 2st Pokimon-Card -->
+    <div class="card">
+      <div class="Cardnav">
+        <div class="color-code">
+            <p>#0908</p>
+            <div class="Icon-type" id="nav-icon-2"><i class="ri-leaf-fill"></i></div>
+        </div>
+        <div class="like"><i class="ri-heart-line"></i></div>
+      </div>
+
+    <div class="pokemon-image">
+    <img src="Pokimon-2.png" alt="Pokemon">
+
+</div>
+      <div class="Pokimon-Name">Meowscarada</div>
+
+        <div class="card-footer">
+            <div class="Food" id="type-2"><i class="ri-leaf-line"></i>dark/Grass</div>
+            <div class="Next-Button">
+                <i class="ri-arrow-right-line"></i>
+            </div>
+        </div>
+
+      </div>
+<!-- 3st Pokimon-Card -->
+    <div class="card">
+      <div class="Cardnav">
+        <div class="color-code">
+            <p>#0254</p>
+            <div class="Icon-type" id="nav-icon-3"><i class="ri-leaf-fill"></i></div>
+        </div>
+        <div class="like"><i class="ri-heart-line"></i></div>
+      </div>
+
+    <div class="pokemon-image">
+    <img src="Pokimon-3.png" alt="Pokemon">
+
+</div>
+      <div class="Pokimon-Name">Chikorita</div>
+
+        <div class="card-footer">
+            <div class="Food" id="type-3"><i class="ri-leaf-line"></i>Grass</div>
+            <div class="Next-Button">
+                <i class="ri-arrow-right-line"></i>
+            </div>
+        </div>
+
+      </div>
+ <!-- 4st Pokimon-Card -->
+    <div class="card">
+      <div class="Cardnav">
+        <div class="color-code">
+            <p>#0624</p>
+            <div class="Icon-type" id="nav-icon-4"><i class="ri-flashlight-fill"></i></div>
+        </div>
+        <div class="like"><i class="ri-heart-line"></i></div>
+      </div>
+
+    <div class="pokemon-image">
+    <img src="Pokimon-4.png" alt="Pokemon">
+
+</div>
+      <div class="Pokimon-Name">Houndoom</div>
+
+        <div class="card-footer">
+            <div class="Food" id="type-4"> <i class="ri-flashlight-fill"></i>Dark/Steel</div>
+            <div class="Next-Button">
+                <i class="ri-arrow-right-line"></i>
+            </div>
+        </div>
+
+      </div>
+    </div>
+    
+
+</div>
+    </Hero>
+</section>
+
+    <!-- footer -->
+
+    <footer class="footer">
+    <div class="footer-item">
+        <div class="footer-icon">
+            <i class="ri-pokeball-line"></i>
+        </div>
+        <div>
+            <h3>Explore</h3>
+            <p>Discover all your<br>favorite Pokémon</p>
+        </div>
+    </div>
+
+    <div class="footer-item">
+        <div class="footer-icon">
+            <i class="ri-leaf-fill"></i>
+        </div>
+        <div>
+            <h3>Filter</h3>
+            <p>Find Pokémon by<br>types and abilities</p>
+        </div>
+    </div>
+
+    <div class="footer-item">
+        <div class="footer-icon">
+            <i class="ri-star-fill"></i>
+        </div>
+        <div>
+            <h3>Collection</h3>
+            <p>Save and manage<br>your collection</p>
+        </div>
+    </div>
+
+    <div class="footer-item">
+        <div class="footer-icon">
+            <i class="ri-bar-chart-fill"></i>
+        </div>
+        <div>
+            <h3>Stats</h3>
+            <p>View stats and learn<br>about Pokémon</p>
+        </div>
+    </div>
+</footer>
+
+
+    </div>
+  </body>
+</html>
