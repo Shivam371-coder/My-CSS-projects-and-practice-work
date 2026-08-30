@@ -259,4 +259,55 @@ p{
     color: #666;
     line-height: 1.4;
 }
-     
+#type-1{
+    background-color: #FDEAE6;
+    color:red;
+   }
+    #type-1 i{
+      color:red;
+    }
+   
+   #type-2,
+   #type-3{
+   background-color: #E2F5E5;
+   color:#57A364;
+   }
+    #type-2 i,
+    #type-3 i{
+     color: #57A364;
+    }
+  
+    #type-4{
+    background-color: #E9EEF4;
+    color:#5B6B7C;
+   }
+    #type-4 i{
+      color:#5B6B7C;
+    }
+    #nav-icon-1{
+      color:red;
+      background: radial-gradient(
+        circle,
+        rgba(184, 147, 147, 0.35),
+        transparent 70%
+    );
+    }
+    #nav-icon-2 ,
+     #nav-icon-3{
+      color:rgb(15, 229, 3);
+      background: radial-gradient(
+        circle,
+        rgba(170, 250, 195, 0.35),
+        transparent 70%
+        
+    );
+    }
+    #nav-icon-4{
+       color:#5B6B7C;
+      background: radial-gradient(
+        circle,
+        #E9EEF4,
+        transparent 70%
+        
+    );
+    }
